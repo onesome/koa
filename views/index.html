@@ -1,0 +1,53 @@
+{% extends "base.html" %} {% block main %}
+<div id="top-content" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="8500">
+                    
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <picture>
+                                <source media="(min-width: 650px)" srcset="/static/images/carousel-1_sm.png">
+                                <source media="(min-width: 465px)" srcset="/static/images/carousel-1_xs.png">
+                                <img class="carouselImg animated bounceInDown" src="/static/images/carousel-1.png" alt="a cute kitten">
+                            </picture>
+
+                            <!-- <img src="/images/carousel-1.png" class="carouselImg animated bounceInDown"> -->
+                            <div class="carousel-caption">
+                                <div class="big-title animated bounceInLeft">
+                                    Create an enriched experience,
+                                    <br> not just ads
+                                </div>
+                                <div class="sub-title animated bounceInLeft">
+                                    The right mix of Content Marketing, Paid Ads and Technology will ensure buyer's journey across all touch points give
+                                    significant information and experience.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.carousel -->
+            </div>
+            <div class="col-md-4" id="overlay">
+                <div class="overlay-box">
+                    <div class="overlay-title">
+                        We help brands with
+                        <br> advanced marketing approach,
+                        <br>backed by technology.
+                    </div>
+                    <p class="overlay-subtitle">
+                        Get in touch with our team
+                        <br> to explore 360-degree integration
+                        <br>in Digital Marketing.
+                    </p>
+                   <h1>welcome {{name}}!</h1>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
