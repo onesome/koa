@@ -9,7 +9,7 @@
     "license": "apache-2.0",
     "repository": {
         "type": "git",
-        "url": "http://github.com/onesome/koa/example2.git"
+        "url": "http://github.com/onesome/koa.git"
     },
     "description": "koa的例子",
     "keywords": [
